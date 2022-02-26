@@ -21,7 +21,7 @@ function Growth5() {
                 <h1 className='text-[#ff8d4d] hover:text-amber-600 text-4xl font-semibold'> give back for a social cause </h1>
             </div>
             <div className='lg:ml-32 mt-6'>
-                <p className='font-normal text-gray-600 text-3xl pr-2'> Famfood charges a percentage of its fee as a sales channel for the brands towards donations for NGOs! </p>
+                <p className='font-normal text-gray-600 text-3xl pr-5'> Famfood charges a percentage of its fee as a sales channel for the brands towards donations for NGOs! </p>
             </div>
     
             <div className='lg:ml-32 mt-6'>
