@@ -2,7 +2,7 @@
 // import { Link } from "react-router-dom";
 import React, { useState } from 'react'
 import { Button, Col, Container, Form, Modal, Navbar, Row, Table } from 'react-bootstrap'
-import { Link, Navigate, useNavigate } from 'react-router-dom'
+import { useNavigate } from 'react-router-dom'
 import logo from '../images/logo1.png'
 import createdvector from '../images/Vector (2).svg'
 import CouponJson from './CoupunJson.js'
@@ -12,7 +12,7 @@ function Dashboard() {
     const [show, setShow] = useState(false);
     const handleClose = () => setShow(false);
     const handleShow = () => setShow(true);
-    const [data, setData] = useState(CouponJson);
+    // const [data, setData] = useState(CouponJson);
     const [coupon, setCoupon] = useState([{
         "expiry_date": "",
         "Discount_Percentage": 0,
@@ -101,8 +101,8 @@ function Dashboard() {
                     <Button variant="secondary" onClick={() => { handleClose() }}>
                         Close
                     </Button>
-                    <Button variant="primary" onClick={() => { setData([]); handleClose() }}>
-                        Add Coupun
+                    <Button variant="primary" onClick={() => {handleClose() }}>
+                        Add Coupon
                     </Button>
                 </Modal.Footer>
             </Modal>
