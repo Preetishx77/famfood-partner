@@ -1,70 +1,66 @@
-# Getting Started with Create React App
+# FamFood - Partner
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Note - This repo is only for the partner brands of FamFood who will collaborate and use FamFood as a niche sales channel, and launch coupon campaigns! Find the Flutter app repo - 
 
-## Available Scripts
+### Join the Fam and share your food moments with your Fam <3 
 
-In the project directory, you can run:
+## FamFood 
 
-### `npm start`
+With FamFood, We help you Research, recommend and reconnect with friends through a common love of food by sharing photos, recipes and experiences with your social network. 
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Features 
 
-### `npm test`
+### Research and recommend your favourite
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Discovered a neighborhood gem? Found a killer recipe? Share your intel with ratings, likes and write-in comments for more detail.
 
-### `npm run build`
+### Explore 
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Explore and discover what the fam is busy binge-eating on ! 
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Learn and Grow 
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Through our in-app Knowledge Hub, read and understand food and diet science in and out, Take better food decisions, Be a healthier and happier you ! 
 
-### `npm run eject`
+### Incentivise your efforts with more food ! 
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Earn FamCoins for every review, like and comment. Redeem them to play exciting games and win them, earn exclusive discount coupons from the top brands like TagZ, OvenStory, Behrouz Biriyani, Faasos, Taco Bell, Domino's ! 
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### FamFood-Partner
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+An attractive webapp that excites and explains various leading brands on their benefits of partnering with FamFood and scaling their businesses and building niche brand-loyal communities. 
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Tech Stack 
 
-## Learn More
+### Flutter
+For our Fam Food app, Find the flutter app repo - 
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### ReactJs
+For the potential partners to collaborate and join Famfood as partners!
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### Firebase
 
-### Code Splitting
+Managing the databases and authentication functions
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+### TailwindCSS and React-Bootstrap
 
-### Analyzing the Bundle Size
+To use UI Components and style the webapp
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-### Making a Progressive Web App
+## Installation Steps
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+1. Clone the repo.
+2. Run NPM install
+3. Run npm start
 
-### Advanced Configuration
+## Dependencies for this repo
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+1. React-Bootstrap
+2. Tailwind CSS
+3. React-router-dom
 
-### Deployment
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
-### `npm run build` fails to minify
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
