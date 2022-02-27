@@ -120,7 +120,7 @@ function Login() {
                   Login
                 </span>
               </button>
-              <h1 className="mx-auto text-center mt-3">Don't have an account ? <span className="text-blue-700 hover:text-purple-500"> <a  href="/signup"> Sign up </a></span></h1>
+              <p className="mx-auto text-center mt-3">Don't have an account ? <span className="text-blue-700 hover:text-purple-500"> <a  href="/signup"> Sign up </a></span></p>
             </div>
           </div>
         </div>
