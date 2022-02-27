@@ -12,14 +12,8 @@ function Dashboard() {
     const [show, setShow] = useState(false);
     const handleClose = () => setShow(false);
     const handleShow = () => setShow(true);
-    // const [data, setData] = useState(CouponJson);
-    const [coupon, setCoupon] = useState([{
-        "expiry_date": "",
-        "Discount_Percentage": 0,
-        "ProductID": "",
-        "ProductName": "",
-        "Number_of_Coupons": 0
-    }]);
+    const [data, setData] = useState([CouponJson]);
+    var arr={ProductID:'ABC123'};
 
     const [coupunCounter, setCoupunCounter] = useState(1);
     let navigate = useNavigate();
@@ -44,7 +38,7 @@ function Dashboard() {
                             </Col>
                             <Col>
                                 {
-                                    coupunCounter !== 1 ? (<> <Button onClick={() => { coupunCounter !== 1 ? setCoupunCounter(coupunCounter - 1) : setCoupunCounter(1) }}>Remove</Button></>) : (<></>)
+                                    coupunCounter !== 1 ? (<> <Button onClick={() => { arr.pop(); coupunCounter !== 1 ? setCoupunCounter(coupunCounter - 1) : setCoupunCounter(1) }}>Remove</Button></>) : (<></>)
                                 }
 
                             </Col>
@@ -66,21 +60,22 @@ function Dashboard() {
                                         <>
                                             {
                                                 [...Array(coupunCounter)].map((elementInArray, index) => {
+                                                 
                                                     return (
                                                         <tr>
                                                             <td>
 
-                                                                <Form.Control type="text" name='productName' placeholder="Product Name" onChange={(e) => setCoupon(coupon.ProductName = e.target.value)} />
+                                                                <Form.Control type="text" name='productName' placeholder="Product Name" onChange={(e) => arr.ProductName = e.target.value } />
 
                                                             </td>
                                                             <td>
-                                                                <Form.Control type="number" name='numberOfCoupuns' placeholder="Number of Coupuns" onChange={(e) => setCoupon(coupon.Number_of_Coupons = e.target.value)} />
+                                                                <Form.Control type="number" name='numberOfCoupuns' placeholder="Number of Coupuns" onChange={(e) => arr.Number_of_Coupons = e.target.value } />
                                                             </td>
                                                             <td>
-                                                                <Form.Control type="number" name='discountPercentage' placeholder="Discount Percentage" onChange={(e) => setCoupon(coupon.Discount_Percentage = e.target.value)} />
+                                                                <Form.Control type="number" name='discountPercentage' placeholder="Discount Percentage" onChange={(e) => arr.Discount_Percentage = e.target.value } />
                                                             </td>
                                                             <td>
-                                                                <Form.Control type="date" name='expiryDate' onChange={(e) => setCoupon(coupon.expiry_date = e.target.value)}/>
+                                                                <Form.Control type="date" name='expiryDate' onChange={(e) => {arr.expiry_date = e.target.value }}/>
                                                             </td>
                                                         </tr>
                                                     )
@@ -101,7 +96,7 @@ function Dashboard() {
                     <Button variant="secondary" onClick={() => { handleClose() }}>
                         Close
                     </Button>
-                    <Button variant="primary" onClick={() => {handleClose() }}>
+                    <Button variant="primary" onClick={() => {handleClose();console.log(data);console.log(arr);setData(data[0].push(arr)) }}>
                         Add Coupon
                     </Button>
                 </Modal.Footer>
