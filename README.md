@@ -1,6 +1,6 @@
 # FamFood - Partner 🚀
 
-Note - This repo is only for the partner brands of FamFood who will collaborate and use FamFood as a niche sales channel, and launch coupon campaigns! Find the Flutter app repo - 
+Note - This repo is only for the partner brands of FamFood who will collaborate and use FamFood as a niche sales channel, and launch coupon campaigns! Find the Flutter app repo - https://github.com/dibyanshu-mohanty/Fam-Food
 
 ### Join the Fam and share your food moments with your Fam <3 
 
@@ -37,7 +37,7 @@ An attractive webapp that excites and explains various leading brands on their b
 ## Tech Stack 
 
 ### Flutter 💙
-For our Fam Food app, Find the flutter app repo - 
+For our Fam Food app, Find the flutter app repo - https://github.com/dibyanshu-mohanty/Fam-Food
 
 ### ReactJs 🕸️
 For the potential partners to collaborate and join Famfood as partners!
