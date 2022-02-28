@@ -102,7 +102,7 @@ function Login() {
                
               <button  
               onClick={login}
-                class="mt-5 tracking-wide font-semibold bg-pink-600 text-gray-100 w-full py-3 rounded-lg hover:bg-pink-700 transition-all duration-300 ease-in-out flex items-center justify-center focus:shadow-outline focus:outline-none"
+                class="mt-3 tracking-wide font-semibold bg-pink-600 text-gray-100 w-full py-3 rounded-lg hover:bg-pink-700 transition-all duration-300 ease-in-out flex items-center justify-center focus:shadow-outline focus:outline-none"
               >
                 <svg
                   class="w-6 h-6 -ml-2"
