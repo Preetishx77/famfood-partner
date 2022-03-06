@@ -88,13 +88,13 @@ function Login() {
 
             <div class="mx-auto max-w-xs">
               <input
-                class="w-full px-8 py-4 rounded-lg font-medium bg-gray-100 border border-gray-200 placeholder-gray-500 text-sm focus:outline-none focus:border-gray-400 focus:bg-white"
+                class="w-full px-8 py-3 rounded-lg font-medium bg-gray-100 border border-gray-200 placeholder-gray-500 text-sm focus:outline-none focus:border-gray-400 focus:bg-white"
                 type="email"
                 placeholder="Email"
                 onChange={(e) => setEmail(e.target.value)}
               />
               <input
-                class="w-full px-8 py-4 rounded-lg font-medium bg-gray-100 border border-gray-200 placeholder-gray-500 text-sm focus:outline-none focus:border-gray-400 focus:bg-white mt-5"
+                class="w-full px-8 py-3 rounded-lg font-medium bg-gray-100 border border-gray-200 placeholder-gray-500 text-sm focus:outline-none focus:border-gray-400 focus:bg-white mt-3"
                 type="password"
                 placeholder="Password"
                 onChange={(e) => setPassword(e.target.value)}
@@ -102,7 +102,7 @@ function Login() {
                
               <button  
               onClick={login}
-                class="mt-5 tracking-wide font-semibold bg-pink-600 text-gray-100 w-full py-4 rounded-lg hover:bg-pink-700 transition-all duration-300 ease-in-out flex items-center justify-center focus:shadow-outline focus:outline-none"
+                class="mt-3 tracking-wide font-semibold bg-pink-600 text-gray-100 w-full py-3 rounded-lg hover:bg-pink-700 transition-all duration-300 ease-in-out flex items-center justify-center focus:shadow-outline focus:outline-none"
               >
                 <svg
                   class="w-6 h-6 -ml-2"
@@ -120,7 +120,7 @@ function Login() {
                   Login
                 </span>
               </button>
-              <h1 className="mx-auto text-center mt-3">Don't have an account ? <span className="text-blue-700 hover:text-purple-500"> <a  href="/signup"> Sign up </a></span></h1>
+              <p className="mx-auto text-center mt-3">Don't have an account ? <span className="text-blue-700 hover:text-purple-500"> <a  href="/signup"> Sign up </a></span></p>
             </div>
           </div>
         </div>
